@@ -1,6 +1,6 @@
 {
   "name": "vue-version-check",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/index.js",
   "bin": {},
@@ -14,13 +14,15 @@
     "postinstall": "npx simple-git-hooks",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "vue-router",
+    "version check"
+  ],
+  "author": "pengboUESTC",
   "license": "ISC",
   "dependencies": {
     "release-pkg": "^1.1.2"
   },
-  "types": "dist/lib",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^23.0.2",
     "@rollup/plugin-json": "^5.0.1",
