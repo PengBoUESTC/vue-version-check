@@ -1,6 +1,6 @@
 export interface Options {
   test?: string | string[] | RegExp
-  beforeReload?: () => boolean | Promise<boolean>
+  beforeReload?: (e?: PromiseRejectionEvent) => boolean | Promise<boolean>
 }
 
 const defaultBeforeReload = () => {
@@ -43,7 +43,7 @@ export const useVersionCheck = (options: Options) => {
     ) {
       e.preventDefault()
       try {
-        const res = await beforeReload()
+        const res = await beforeReload(e)
         if (!res) return
         listener()
       } catch (e) {
