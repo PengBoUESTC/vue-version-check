@@ -1,7 +1,7 @@
 {
   "name": "vue-version-check",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.3",
+  "description": "project version check",
   "main": "dist/index.js",
   "bin": {},
   "directories": {
@@ -15,11 +15,16 @@
     "test": "jest"
   },
   "keywords": [
+    "vue",
     "vue-router",
     "version check"
   ],
   "author": "pengboUESTC",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PengBoUESTC/vue-version-check.git"
+  },
   "dependencies": {
     "release-pkg": "^1.1.2"
   },

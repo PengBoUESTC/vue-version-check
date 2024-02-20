@@ -37,7 +37,7 @@ const useVersionCheck = (options) => {
             testList.find((errorRe) => errorRe.test(message))) {
             e.preventDefault();
             try {
-                const res = await beforeReload();
+                const res = await beforeReload(e);
                 if (!res)
                     return;
                 listener();
