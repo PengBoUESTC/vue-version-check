@@ -1,6 +1,6 @@
 {
   "name": "vue-version-check",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "project version check",
   "main": "dist/index.js",
   "bin": {},

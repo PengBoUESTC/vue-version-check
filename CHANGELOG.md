@@ -1,3 +1,7 @@
+## [1.0.5](https://github.com/PengBoUESTC/vue-version-check/compare/v1.0.4...v1.0.5) (2026-05-27)
+
+
+
 ## [1.0.4](https://github.com/PengBoUESTC/vue-version-check/compare/v1.0.3...v1.0.4) (2026-05-27)
 
 
