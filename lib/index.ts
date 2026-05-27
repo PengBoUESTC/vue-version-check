@@ -34,7 +34,7 @@ export const useVersionCheck = (options: Options) => {
   }
 
   const handleUnhandledrejection = async (e: PromiseRejectionEvent) => {
-    const { message } = e.reason
+    const { message } = e.reason || {}
     if (
       /Failed to fetch dynamically imported module|Unable to preload|'text\/html' is not a valid JavaScript MIME type/.test(
         message,
