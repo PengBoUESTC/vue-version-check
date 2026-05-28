@@ -33,6 +33,8 @@ const useVersionCheck = (options) => {
     };
     const handleUnhandledrejection = async (e) => {
         const { message } = e.reason || {};
+        if (!message)
+            return;
         if (/Failed to fetch dynamically imported module|Unable to preload|'text\/html' is not a valid JavaScript MIME type/.test(message) ||
             testList.find((errorRe) => errorRe.test(message))) {
             e.preventDefault();

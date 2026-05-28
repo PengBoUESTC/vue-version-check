@@ -1,3 +1,12 @@
+## [1.1.1](https://github.com/PengBoUESTC/vue-version-check/compare/v1.1.0...v1.1.1) (2026-05-28)
+
+
+### Bug Fixes
+
+* message ([dfe52d4](https://github.com/PengBoUESTC/vue-version-check/commit/dfe52d41545e76d849565326cbbbf4e3278a82b3))
+
+
+
 # [1.1.0](https://github.com/PengBoUESTC/vue-version-check/compare/v1.0.4...v1.1.0) (2026-05-27)
 
 
